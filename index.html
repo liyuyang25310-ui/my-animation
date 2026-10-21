@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080e16" />
+  <title>月相共鸣 · GPT 启动终端</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header><a class="brand" href="./"><span class="brand-mark">◈</span> LUNAR<span class="brand-sub">RESONANCE SYSTEM</span></a><div class="connection"><i></i> LOCAL LINK <span> / </span> 稳定连接</div></header>
+  <main>
+    <section id="boot" class="boot" aria-labelledby="boot-title">
+      <div class="side-note left-note">RESONATOR ARCHIVE <span>—</span> YUNO / 01</div>
+      <div class="side-note right-note">月光所至，万籁共鸣。</div>
+      <div class="eyebrow"><span></span> SOLARIS TERMINAL · NEURAL INTERFACE <span></span></div>
+      <div class="moon-stage" aria-hidden="true">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div><div class="crosshair horizontal"></div><div class="crosshair vertical"></div>
+        <div class="moon-halo"></div><div class="moon"></div><div class="moon-shade"></div>
+        <span class="orbit-label label-top">LUNAR PHASE / 07</span><span class="orbit-label label-bottom">共 鸣 频 率 · 7.83 Hz</span>
+        <div class="diamond d1"></div><div class="diamond d2"></div>
+      </div>
+      <div class="title-block"><p class="chapter">月 相 共 鸣 / PROJECT SELENE</p><h1 id="boot-title">让思绪，<em>与月光同频。</em></h1><p class="subtitle">正在唤醒你的 GPT 智能伙伴</p></div>
+      <div class="loading-panel">
+        <div class="progress-meta"><span id="phase">正在建立共鸣连接</span><span class="percent"><strong id="percent">00</strong><small>%</small></span></div>
+        <div id="progress" class="progress-track" role="progressbar" aria-label="启动进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress-fill"></div></div>
+        <div class="loading-footer"><span id="terminal-line">INITIALIZING RESONANCE CORE...</span><span id="step">01 / 04</span></div>
+      </div>
+      <div class="telemetry"><div><span>CORE STATUS</span><b id="core-status">AWAKENING</b></div><div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div><span>PROTOCOL</span><b>GPT · LUNAR LINK</b></div></div>
+      <p class="sr-only" id="announcement" role="status" aria-live="polite">正在启动共鸣终端。</p>
+    </section>
+    <section id="welcome" class="welcome" aria-labelledby="welcome-title" hidden>
+      <div class="ready-symbol" aria-hidden="true">✦</div><p class="chapter">RESONANCE ESTABLISHED</p><h2 id="welcome-title">月光已至。<br><em>新的灵感，即刻开始。</em></h2><p>连接已就绪，愿每一次探索，都有回响。</p><div class="ready-badge"><i></i> GPT 共鸣终端 · 已就绪</div><button id="replay" type="button">再次感受共鸣 <span>↗</span></button><small>视觉启动演示 · 未连接实际 GPT 服务</small>
+    </section>
+  </main>
+  <footer><span>✦ &nbsp; WUTHERING WAVES · YUNO INSPIRED</span><span class="footer-center">非官方同人视觉概念</span><span id="clock">UTC+08:00</span></footer>
+</body>
+</html>
